@@ -7,7 +7,7 @@ const {OrderPage} = require("../Pages/OrderPage");
 //importing json data file
 const testData = require("../Data/testData.json");
 
-test.only('E2E test', async ({ page }) => {
+test('E2E test', async ({ page }) => {
 
 //deklarisanje stranice koja povlaci funkciju    
 const loginPage = new LoginPage1(page);
