@@ -5,7 +5,7 @@ const testData = require("../Data/testData.json");
 
 test('E2E application workflow test', async ({ page }) => {
 
-// Initialize PAge Manager
+// Initialize Page Manager
 const pageManager = new PageManager(page);
 //Step 1. Login to the application
 await pageManager.getLoginPage().goTo(testData.url);
